@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="histogram.css" >
+<script type="text/javascript" src="calculate.js"></script>
+
+</head>
+
+<body>
+
+<h1>Histogram Generator</h1>
+
+<table cellpadding="20">
+<tr><td valign="top">
+	<div>
+	<table class="inside" cellpadding="20">
+	<tr>
+		<th class="lb" colspan="2">Lower bounds</th>
+		
+	</tr>
+	<tr>
+	    <td class="grade">Max</td>
+	    <td class="number"><input type="text" name="Max" id="Max" value="100.00" onkeypress="check()"></td>
+	</tr>
+	<tr>
+		<td class="grade">A+</td>
+	    <td><input type="text" name="A+" id="A+" value="95.00" onkeypress="check()"></td>
+	</tr>
+	<tr>
+		<td class="grade">A</td>
+	    <td><input type="text" name="A" id="A" value="90.00" onkeypress="check()"></td>
+	</tr>
+	<tr>
+		<td class="grade">A-</td>
+	    <td><input type="text" name="A-" id="A-" value="85.00" onkeypress="check()"></td>
+	</tr>
+	<tr>
+		<td class="grade">B+</td>
+	    <td><input type="text" name="B+" id="B+" value="80.00" onkeypress="check()"></td>
+	</tr>
+	<tr>
+		<td class="grade">B</td>
+	    <td><input type="text" name="B" id="B" value="75.00" onkeypress="check()"></td>
+	</tr>
+	<tr>
+		<td class="grade">B-</td>
+	    <td><input type="text" name="B-" id="B-" value="70.00" onkeypress="check()"></td>
+	</tr>
+	<tr>
+		<td class="grade">C+</td>
+	    <td><input type="text" name="C+" id="C+" value="65.00" onkeypress="check()"></td>
+	</tr>
+	<tr>
+		<td class="grade">C</td>
+	    <td><input type="text"  name="C" id="C" value="60.00" onkeypress="check()"></td>
+	</tr>
+	<tr>
+		<td class="grade">C-</td>
+	    <td><input type="text" name="C-" id="C-" value="55.00" onkeypress="check()"></td>
+	</tr>
+	<tr>
+		<td class="grade">D</td>
+	    <td><input type="text" name="D" id="D" value="50.00" onkeypress="check()"></td>
+	</tr>
+	<tr>
+		<td class="grade">F</td>
+	    <td><input type="text" name="F" id="F" value="0.00" onkeypress="check()"></td>
+	</tr>
+	</table>
+</div>
+</td>
+<td valign="top">
+	<div>
+	<table class="inside" cellpadding="10">
+	<tr>
+		<th class="h" colspan="2">Histogram</th>
+		
+	</tr>
+	<tr>
+		<td class="grade">A+</td>
+	    <td class="his"><div id="h0"></div></td>
+	</tr>
+	<tr>
+		<td class="grade">A</td>
+	    <td><div id="h1"></div></td>
+	</tr>
+	<tr>
+		<td class="grade">A-</td>
+	    <td><div id="h2"></td>
+	</tr>
+	<tr>
+		<td class="grade">B+</td>
+	    <td><div id="h3"></td>
+	</tr>
+	<tr>
+		<td class="grade">B</td>
+	    <td><div id="h4"></td>
+	</tr>
+	<tr>
+		<td class="grade">B-</td>
+	    <td><div id="h5"></td>
+	</tr>
+	<tr>
+		<td class="grade">C+</td>
+	    <td><div id="h6"></td>
+	<tr>
+		<td class="grade">C</td>
+	    <td><div id="h7"></td>
+	</tr>
+	<tr>
+		<td class="grade">C-</td>
+	    <td><div id="h8"></td>
+	</tr>
+	<tr>
+		<td class="grade">D</td>
+	    <td><div id="h9"></td>
+	</tr>
+	<tr>
+		<td class="grade" >F</td>
+	    <td><div id="h10"></td>
+	</tr>
+	<tr>
+		<td></td>
+	    <td></td>
+	</tr>
+	</table>
+</div>
+</td>
+</tr>
+</table>
+
+
+
+</body>
+</html>
+

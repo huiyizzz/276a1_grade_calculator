@@ -1,0 +1,67 @@
+h1{
+	font-family:Arial,Sans-serif;
+	padding-bottom:20px;
+	letter-spacing: -1px
+}
+
+th.lb{
+	font-family:Georgia, serif;
+	font-size: 24px;
+	color: #CC0000;
+	padding-bottom:30px;
+	text-align:left;
+	letter-spacing: -1px
+}
+	
+th.h{
+	font-family:Georgia, serif;
+	font-size: 24px;
+	color: #CC0000;
+	padding-bottom:30px;
+	padding-top:20px;
+	padding-left:20px;
+	text-align:left;
+	letter-spacing: -1px
+}
+
+td.grade{
+	font-family:Georgia, serif;
+	padding-left:60px;
+	font-size: 18px;
+	font-weight: 700;
+	padding-right:80px;
+	letter-spacing: -1px
+}
+	
+td.number{
+	padding-right:180px;
+}
+	
+td.his{
+	width:180px;
+}
+
+input{
+	font-family:Georgia, serif;
+    text-align:right;
+	font-size: 18px;
+	width:80px;
+	height:30px;
+	padding-right:10px;
+	font-weight: 500;
+}
+
+table.inside{
+	border-collapse:collapse;
+	border: 1px solid #C8DBDD;
+	background-color: #E8F2F3;
+}
+
+div{
+	font-size: 18px;
+	font-family:Georgia, serif;
+}
+
+span{
+ 	background-color:#92bdd3;
+ }
